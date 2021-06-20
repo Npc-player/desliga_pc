@@ -26,7 +26,6 @@ def vp_start_gui():
     '''Starting point when module is the main routine.'''
     global val, w, root
     root = tk.Tk()
-    #root.iconbitmap('desliga.ico')
     top = Toplevel1 (root)
     root.update()
     root.iconbitmap('desliga.ico')
